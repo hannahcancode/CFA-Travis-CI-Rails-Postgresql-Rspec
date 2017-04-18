@@ -32,7 +32,7 @@ This guide shows you how to integrate Travis CI with your Ruby on Rails project 
   language: ruby
 
   # sets the ruby version/type
-  # if you can have more than one, just add more lines
+  # if you have more than one version, just add more lines
   rvm:
     - 2.4.0
 
