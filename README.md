@@ -4,6 +4,8 @@
 
 This guide shows you how to integrate Travis CI with your Ruby on Rails project that uses rspec for testing and postgresql for database.
 
+## How To
+
 - Set up your Travis CI hook to Github here: [Sign in to Travis CI](https://travis-ci.org/auth)
 
 - Navigate to your profile and "turn on" the repository you want to test in
@@ -65,6 +67,10 @@ This guide shows you how to integrate Travis CI with your Ruby on Rails project 
 
 - When you're happy, push to your GitHub repository. Travis CI will automatically detect you have pushed and run your tests.
 
+## Get your badge!
+
 - To get your "Build: Passing" badge in your README.md, click into your repository on Travis CI, and click on the badge next to your repository name. Select the dropdown menu with 'Image URL' and select 'Markdown'. Copy and paste the Markdown code into your README.md.
 
-- If you get a build error it could be that Travis CI couldn't run your project properly - check you gave it a valid ruby version, that your dependencies are all ok, and that your databases are being created. You can follow along waht's actually happening in the logs and see where you're getting an error.
+## Troubleshooting
+
+- If you get a build error it could be that Travis CI couldn't run your project properly - check you gave it a valid ruby version, that your dependencies are all ok, and that your databases are being created. You can follow along what's actually happening in the logs and see where you're getting an error.
