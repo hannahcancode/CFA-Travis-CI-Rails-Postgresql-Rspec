@@ -32,7 +32,7 @@ This guide shows you how to integrate Travis CI with your Ruby on Rails project 
   language: ruby
 
   # sets the ruby version/type
-  # you can have more than one, just add more lines
+  # if you can have more than one, just add more lines
   rvm:
     - 2.4.0
 
@@ -46,8 +46,7 @@ This guide shows you how to integrate Travis CI with your Ruby on Rails project 
     - postgresql
 
   # scripts you run before your test
-  # in this case, it creates and migrates our postgresql
-  # database
+  # in this case, it creates and migrates our postgresql database
   before_script:
     - bundle exec rake db:create
     - bundle exec rake db:migrate
